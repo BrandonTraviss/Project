@@ -81,6 +81,14 @@ footer{
   grid-area: footer4;
   display: flex;
   justify-content: center;
+  color: var(--logo--blue);
+}
+.footer-socials{
+  display: flex;
+  gap: 1rem;
+}
+.footer-socials>a>img{
+  width: 50px;
 }
 /* Header */
 header{
@@ -220,9 +228,6 @@ nav menu li a:hover{
     align-items: center;
     grid-area: item3;
   }
-.hero-item3>p{
-    width: 800px;
-  }
 @media only screen and (max-width: 830px) {
   /* Index Stuff */
 .hero-index{
@@ -235,6 +240,9 @@ nav menu li a:hover{
 }
 .hero-item1{
     justify-content: center;
+  }
+  .hero-item2>img{
+    display: none;
   }
 .hero-item1>img{
     width: 100%;
@@ -252,11 +260,15 @@ nav menu li a:hover{
   grid-template-areas:
   "why-title why-title" 
   "why-item1 why-item1"
-  "why-item2 why-item3"
+  "why-item3 why-item3"
 }
 .index-why-2{
+  display: none;
   grid-area: why-item2;
   width: 40vw;
+}
+.index-why-3{
+  margin-top: 1rem;
 }
   /* FOOTER */
   footer{
