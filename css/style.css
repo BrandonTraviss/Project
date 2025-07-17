@@ -227,6 +227,7 @@ nav menu li a:hover{
     justify-content: center;
     align-items: center;
     grid-area: item3;
+    padding-inline: 1rem;
   }
 @media only screen and (max-width: 830px) {
   /* Index Stuff */
