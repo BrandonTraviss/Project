@@ -2,7 +2,11 @@
     --logo--blue: #33348E;
     --logo--red: #CC2229;
 }
+/* Global */
 *{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -180,6 +184,9 @@ nav menu li a:hover{
   align-items: center;
   grid-area: why-item1;
 }
+.index-why-1>p{
+  max-width: 700px;
+}
 .index-why-2{
   grid-area: why-item2;
   width: 50vw;
@@ -228,6 +235,9 @@ nav menu li a:hover{
     align-items: center;
     grid-area: item3;
     padding-inline: 1rem;
+  }
+  .hero-item3>p{
+    max-width: 950px;
   }
 @media only screen and (max-width: 830px) {
   /* Index Stuff */
