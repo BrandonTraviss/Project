@@ -240,6 +240,10 @@ nav menu li a:hover{
     max-width: 950px;
   }
 @media only screen and (max-width: 830px) {
+  /* Global Changes */
+  p, button, a {
+  font-size: 17px;
+}
   /* Index Stuff */
 .hero-index{
   display: grid;
@@ -259,14 +263,13 @@ nav menu li a:hover{
     width: 100%;
   }
 .hero-item3>p{
-  padding: 1rem;
   margin-top: 1rem;
-    width: 100%;
+  width: 100%;
   }
 
 .why-index{
   display: grid;
-  padding-inline: 2rem;
+  padding-inline: 1rem;
   padding-bottom: 2rem;
   grid-template-areas:
   "why-title why-title" 
@@ -321,13 +324,13 @@ nav menu li a:hover{
   align-items: center;
   height: fit-content;
   width: 100vw;
-}
-nav menu li a{
-  width: 100%;
-  color: var(--logo--blue);
-}
-nav menu li a:hover{
-  color: var(--logo--blue);
-  background-color: #f8f8f8;
-}
+  }
+  nav menu li a{
+    width: 100%;
+    color: var(--logo--blue);
+  }
+  nav menu li a:hover{
+    color: var(--logo--blue);
+    background-color: #f8f8f8;
+  }
 }
