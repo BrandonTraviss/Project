@@ -16,7 +16,7 @@ const header = `<div class="logo-container">
         </nav>`
         // Footer to be loaded
 const footer = `<div class="footer1">
-                <img src="../svg/logo.svg" alt="Commadore Logo">
+                <img src="./svg/logo.svg" alt="Commadore Logo">
                 <div class="footer-socials">
                     <!-- Links do not work as this company does not have socials-->
                      <a href=""><img src="./svg/instaSVG.svg" alt="Instragram Logo"></a>
